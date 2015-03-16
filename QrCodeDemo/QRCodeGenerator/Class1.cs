@@ -31,7 +31,18 @@ namespace QRCodeGenerator
 
             
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="strContent"></param>
+        /// <param name="path"></param>
+        /// <param name="backgroundPath"></param>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="ms"></param>
+        /// <returns></returns>
         public  bool GetQRCode(string strContent,string path,string backgroundPath,int width,int height,int x,int y ,MemoryStream ms)
         {
             ErrorCorrectionLevel Ecl = ErrorCorrectionLevel.M; //误差校正水平   
